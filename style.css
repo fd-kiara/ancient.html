@@ -89,7 +89,7 @@ p, li, blockquote{
     display: flex;
     justify-content: right;
     text-decoration: none;
-    margin-left: 500px;
+    margin-left: 60%;
     margin-top: 30px;
 }
 
