@@ -263,13 +263,9 @@ figcaption {
   width: 87%;
   margin-left: 90px;
   margin-top: 15px;
-  font-weight: 600;
 }
 
-.flexible{
-    display: flex;
-    margin-left: 27rem;
-}
+
 
 footer{
     height: 100%;
