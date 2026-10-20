@@ -14,41 +14,6 @@
     --spacing-xl: 3rem;
 }
 
-.scrolling-banner {
-  background-color: #000000;
-  color: #ffffff;
-  overflow: hidden;
-  white-space: nowrap;
-  box-sizing: border-box;
-  padding: 10px 0;
-  font-size: 20px;
-  max-width: 100% !important;
-}
-
-.scrolling-content {
-  display: inline-block;
-  white-space: nowrap;
-  animation: scroll-left 20s linear infinite;
-}
-
-.scrolling-content span {
-  display: inline-block;
-}
-
-
-.scrolling-banner:hover .scrolling-content {
-  animation-play-state: paused;
-}
-
-
-@keyframes scroll-left {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-50%);
-  }
-}
 
 body{
     margin: 0;
@@ -243,7 +208,7 @@ figcaption {
     border-bottom-right-radius: 1rem;
     padding: 10px;
     display: flex;
-
+    box-sizing: border-box;
 }
 
 
@@ -253,10 +218,13 @@ figcaption {
   border-radius: 8px;
   border: 1px solid var(--color-border);
   height: 20%;
-  padding: 15px;
+  padding: 5px;
   margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box !important;
+  word-wrap: break-word;
+
 }
 
 .end{
